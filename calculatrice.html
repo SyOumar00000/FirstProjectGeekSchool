@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>calculatrice</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d6a246da98.js"></script>
+  </head>
+  <body>
+    <form class="formulaire_de_calcul" action="" method="post">
+      <fieldset class="field">
+
+
+
+      <h4>formulaire d'achat d'article</h4>
+      <table style="position:center;">
+      <tr>
+        <td>  <label for="list"> veuillez choisir votre article:</label></td>
+        <td>
+          <select class="" name="listarticle" id="article" onchange="PrixU()">
+            <option value="0"> choisir l'article</option>
+            <option value="1"> attieke poisson braisé</option>
+            <option value="2">attieke poisson grillé</option>
+            <option value="3"> attieke poisson thon</option>
+            <option value="4">attieke poisson mouillé</option>
+            <option value="5">attieke poisson operé</option>
+          </select>
+        </td>
+      </tr>
+
+  <tr>
+  <td> <label for="seller">prix unitaire</label></td>
+  <td> <input type="text" name="pu" disabled="disabled" id="pu" /></td>
+  </tr>
+
+  <tr>
+  <td>   <label for="seller"> combien en-voulez vous?</label></td>
+  <td> <input type="number" name="seller"  id="nombre" onkeyup="PrixU()" value="listarticle"></td>
+  </tr>
+  </table>
+  <br><br><br>
+  <center>
+   <label for="seller">total achat</label>
+     <input type="text"name="totalachat" id="total" disabled="disabled" />
+
+  </center>
+
+  </fieldset>
+    </form>
+
+    <!-- modalbody-end -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+    <script src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="javaScript.js"></script>
+
+  <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

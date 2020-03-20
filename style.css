@@ -1,0 +1,296 @@
+body{
+margin-top: 50px;
+  background-color: #e6c500;
+}
+
+.one, .two, .three {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.monboutonachat{
+  width: 90px;
+  background-color:blue;
+  border: 1px solid blue;
+  border-radius: 20%;
+  padding: 10px;
+  color: white;
+  margin: 2px;
+  display: center;
+}
+.field{
+  width: 500px;
+  height: auto;
+float: right;
+margin-right: 400px;
+padding: 10px;
+  background-color: white;
+  color: blue;
+}
+
+/* beguin of rotate menu */
+.change .one{
+  -webkit-transform:rotate(-45deg) translate(-9px, 6px);
+  transform:rotate(-45deg) translate(-9px, 6px);
+}
+.change .two{
+  opacity: 0;
+}
+.change .three{
+  -webkit-transform:rotate(45deg) translate(-8px, -8px);
+  transform:rotate(45deg) translate(-8px, -8px);
+}
+
+/* end of rotate menu */
+#mainNavbar{
+  background-color: #fff;
+  color:inherit;
+  color:white;
+
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  overflow:auto;
+}
+.aside{
+  margin-top: 55px;
+}
+.carrée{
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color:#0be881 ;
+  color: white;
+  padding:5px;
+  overflow:auto;
+}
+
+.welcome{
+   color: black;
+  font-family: arial;
+  display: center;
+  overflow:auto;
+
+}
+
+
+.hdroite{
+  margin-top: -10px;
+  float: right;
+  margin-right: -52px;
+    margin-bottom: 30px;
+    overflow:auto;
+}
+.textgauche{
+  padding:5px;
+  background-color: #fffa65;
+  margin-bottom: 30px;
+  overflow:auto;
+}
+.tab-pane{
+  margin:5px;
+}
+.titreT{
+  font-family: arial;
+  font-style: italic;
+  text-align: center;
+  overflow:auto;
+
+}
+.ptitecarte{
+  color:#196331;;
+  font-family: serif;
+  overflow:auto;
+}
+.contacted{
+  background-color: #196331;
+  color: #fff;
+  margin:20px;
+}
+.send{
+  background-color: #196331;
+  color: #fff;
+
+}
+.barrederecherche{
+  margin-right: 20px;
+}
+.footer-sy{
+  border: 1px solid #19633121;
+  color:white;
+  background-color: #ce3121;
+  font-style: oblique;
+  font-size: 15px;
+  padding-bottom: 0px;
+  height: auto;
+  overflow:auto;
+
+}
+/*BARRE DE RECHERCHE*/
+
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 210px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+            background-color: #196331;
+        }
+        .btnsearch {
+          background-color: #196331;
+            height: 25px;
+            position: absolute;
+            right: 0;
+            top: 3px;
+            border-radius:1px;
+        }
+        .btn-sy{
+          background-color: #196331;
+          color: #fff;
+        }
+        .btn-sy:hover{
+          background-color: #fff;
+          border: 1px solid #196331;
+        }
+        #zKM #zsl #zdiourbel #Zville1 #GD  #touba #pikine #DKR{
+            overflow: auto;
+        }
+ /* fond d'ecriture des textes */
+ carousel-caption{
+   color:#196331;
+ }
+
+
+ body {font-family: Arial, Helvetica, sans-serif;}
+
+ /* The Modal (background) */
+ .modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+
+ /* Modal Content */
+ .modal-content {
+   position: relative;
+   background-color: #fefefe;
+   margin: auto;
+   padding: 0;
+   border: 1px solid #888;
+   width: 80%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+   -webkit-animation-name: animatetop;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animatetop;
+   animation-duration: 0.4s
+ }
+
+ /* Add Animation */
+ @-webkit-keyframes animatetop {
+   from {top:-300px; opacity:0}
+   to {top:0; opacity:1}
+ }
+
+ @keyframes animatetop {
+   from {top:-300px; opacity:0}
+   to {top:0; opacity:1}
+ }
+
+ /* The Close Button */
+ .close {
+   color: white;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ /* The Close Button */
+ .close2 {
+   color: white;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+
+ .close2:hover,
+ .close2:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ /* close button pikine start */
+ /* .close3 {
+   color: white;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+
+ .close3:hover,
+ .close3:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ } */
+ /* close button close end */
+
+ .modal-header {
+   padding: 2px 16px;
+   background-color: #5cb85c;
+   color: white;
+ }
+
+ .modal-body {padding: 2px 16px;}
+
+ .modal-footer {
+   padding: 2px 16px;
+   background-color: #5cb85c;
+   color: white;
+ }
