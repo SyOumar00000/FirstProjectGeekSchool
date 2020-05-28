@@ -1,3 +1,13 @@
+body{
+  background-color: black;
+}
+.oms{
+  margin-top: 80px;
+}
+
+
+
+
 .form-signin
 {
     max-width: 330px;
@@ -38,6 +48,9 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+#sms{
+  display: block;
+}
 .account-wall
 {
     margin-top: 20px;
@@ -49,8 +62,8 @@
 }
 .login-title
 {
-    color: #555;
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
     font-weight: 400;
     display: block;
 }

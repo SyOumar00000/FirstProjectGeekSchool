@@ -1,6 +1,19 @@
-body { padding-top:30px; }
+body { padding-top:30px;
+background-color: black;}
 .form-control { margin-top: 10px;}
+.takef{
+  margin-top: 100px;
+  display: center;
+  float: left;
+  margin-left: 450px;
 
+}
+/* #valider{
+  float: right;
+} */
+#naitre{
+  width: 100%;
+}
 
 /*  debut du css du modal */
 .modal .modal-header {

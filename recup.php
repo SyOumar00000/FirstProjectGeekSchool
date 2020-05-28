@@ -1,5 +1,5 @@
-<?php
-if (isset($_POST['valider']))
+<!-- <?php
+if (isset($_POST['Valider']))
 {
  include('connect.php');
 
@@ -9,27 +9,32 @@ if (isset($_POST['valider']))
   $emailagain =  $_POST['emailagain'];
   $password = $_POST['password'];
   $sex = $_POST['sex'];
-  $dat_naiss = $_POST['dat_naiss'];
+   $dat_naiss = $_POST['dat_naiss'];
+
+     if ($email != $emailagain) {
+       echo "mots de passe differents";
+     } else {
+       $sql = 'INSERT into utilisateurs (nom,prenom,email,emailagain,password,sex,dat_naiss)
+               VALUES("'.$nom.'", "'.$prenom.'","'.$email.'","'.$emailagain.'","'.$password.'","'.$sex.'","'.$dat_naiss.'" )';
+
+       $test = mysqli_query($conn, $sql);
+
+       if ($test == true) {
+        echo "INSERTION REUSSIE ....
+        <br>
+        <a href=form.php>
+          <h1> connectez-vous maintenant ici</h1>
+         </a>";
+
+       }
+       else {
+        echo "ERREUR ";
+       }
+       }
 
 
-$sql = 'INSERT into utilisateurs (nom,prenom,email,emailagain,password,sex,dat_naiss)
-        VALUES("'.$nom.'", "'.$prenom.'","'.$email.'","'.$emailagain.'","'.$password.'","'.$sex.'","'.$dat_naiss.'")';
+     }
 
-
-$test = mysqli_query($conn, $sql);
-
-if ($test == true) {
- echo "INSERTION REUSSIE ....
- <br>
- <a href=form.php>
-   <h1> connectez-vous maintenant ici</h1>
-  </a>";
-
-}
-else {
- echo "ERREUR ";
-}
-}
 
  // recuperer ces infos dans la base de donnees
-?>
+?> -->

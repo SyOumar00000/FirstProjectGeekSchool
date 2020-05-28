@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include('connect.php');
   $sql1 = "SELECT * FROM utilisateurs";
 $users = mysqli_query($conn,$sql1);
@@ -30,4 +30,4 @@ while ($data = mysqli_fetch_array($users)) {
   echo "</tr>";
 }
    ?>
-</table>
+</table> -->

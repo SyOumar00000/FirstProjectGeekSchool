@@ -1,0 +1,23 @@
+.error{
+    height:50px;
+    width:100%;
+    margin: 50px auto;
+    text-align:center;
+    line-height:50 px;
+    border: 1px solid #FF3333;
+    color: #FF3333;
+    background-color: #FF8787;
+    border-radius:10px;
+
+}
+.success{
+    height:50px;
+    width:100%;
+    margin:50px auto;
+    text-align:center;
+    line-height:50 px;
+    border: 1px solid #45BA30;
+    color: #95FF82;
+    background-color: #FF8787;
+    border-radius:10px;
+}
